@@ -1,0 +1,10 @@
+% Problem{02}: Using Flowers_Color.jpg create three separate images, one
+% for each layer (red, green blue).
+% Filename: RGB.m
+% Input: 'Flowers_Color.jpg'
+% Output: 'Flowers_Red.jpg', 'Flowers_Green.jpg', 'Flowers_Blue.jpg'
+%         Flowers_Red, Flowers_Green, Flowers_Blue
+
+Flowers_Color = imread('Flowers_Color.jpg');
+
+Flowers_Red = Flowers_Color;
